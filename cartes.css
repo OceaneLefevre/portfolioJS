@@ -1,0 +1,89 @@
+
+
+.container-navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+
+.carte-navigation {
+    padding: 6px;
+    width: 400px;
+    height: 400px;
+    background-color:rgb(230, 128, 20);
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(14, 14, 64);
+    margin: 10px;
+    box-shadow: 5px 5px 5px rgb(136, 76, 11);
+    font-family: 'Alata', sans-serif;
+}
+  
+.carte-navigation p {
+    background-color:rgb(230, 128, 20);
+    font-size: 17px;
+}
+
+.carte-navigation h1 {
+    background-color: rgb(230, 128, 20);
+    
+}
+
+
+@media screen and (max-width: 700px) {
+    .container-navigation {
+        flex-wrap: wrap;
+    }
+}
+
+
+
+.img-creations {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.moi {
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.contact {
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+.container-passion {
+    display: grid;
+    background-color: rgb(230, 128, 20);
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    padding: 20px; 
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 3%;
+    border-radius: 20px;
+}
+
+.passion {
+    background-color: #f0e6db;
+    height: 100px;
+    text-align: center;
+    border-radius: 20px;
+    color: rgb(17, 17, 62) ;
+}
+
+
+@media screen and (max-width: 700px) {
+    .container-passion {
+        grid-template-columns: 1fr;
+    }
+}

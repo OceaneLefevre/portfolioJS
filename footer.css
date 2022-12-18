@@ -1,0 +1,17 @@
+.footer {
+    background-color: rgba(0, 0, 0, 0.184);
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Alata', sans-serif;
+    gap: 100px;
+    background-color: #f0e6db;
+}
+
+
+
+
+.copyright {
+    font-size: 15px ;
+}

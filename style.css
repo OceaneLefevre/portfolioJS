@@ -1,0 +1,40 @@
+@import url(composants/boutons.css);
+@import url(composants/cartes.css);
+@import url(composants/navbar.css);
+@import url(composants/banner.css);
+@import url(composants/texte.css);
+@import url(composants/img.css);
+@import url(composants/animation.css);
+@import url(composants/footer.css);
+@import url(composants/composants.css);
+
+
+*{
+    margin: 0;
+    padding: 0 ;
+    box-sizing: border-box;
+    background-color: #f0e6db;
+    font-family: 'Alata', sans-serif;
+}
+
+
+
+
+
+.nightMode {
+    background-color: #1d0c5e
+  }
+  
+  .nightMode p {
+    color: rgba(255, 255, 255, 0.813);
+  }
+
+
+
+  .animateText{
+    transform:rotateX('720deg') 
+  }
+  
+  p {
+    transform : all 2;
+  }

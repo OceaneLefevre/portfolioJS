@@ -1,0 +1,64 @@
+
+
+.container-projet {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    gap: 20px;
+}
+
+.image-trinity img {
+    width: 450px;
+    margin: 15px;
+}
+
+@media screen and (max-width :700px) {
+    
+    .description-laylow h1 {
+        position: relative;
+    }
+
+    .description-laylow p {
+        position: relative;
+    }
+
+    .container-crea {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .image-trinity img {
+        width: 350px;
+        margin: 15px;
+    }
+}
+
+.img-gauche-apple {
+    display: grid ;
+    grid-template-columns: 1fr 1fr ;
+    margin: 20px; 
+    gap: 20px;
+    background-color: rgb(232, 111, 36);
+    padding: 20px;
+}
+
+.img-gauche-apple img {
+    width: 300px;
+}
+
+
+.carousel-inner {
+    width: 500px;
+}
+
+.sims {
+    width: 300px;
+}
+
+@media screen and (max-width :700px) {
+    .container-projet {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+}
